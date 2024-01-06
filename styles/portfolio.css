@@ -82,10 +82,6 @@ nav a {
     width: 500px;
 }
 
-/* .banner .dev-bg { */
-
-}
-
 .banner-greeting {
     font-size: 45px;
     color: #474747;
@@ -100,7 +96,12 @@ nav a {
 }
 
 /* main section styles */
-
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+}
 
 /* about section styles */
 .about {
@@ -108,4 +109,8 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
