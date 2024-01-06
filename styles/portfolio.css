@@ -62,9 +62,9 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -99,7 +99,6 @@ nav a {
 main{
     max-width: 1300px;
     margin: 0 auto;
-    text-align: center;
     font-size: large;
 }
 
@@ -117,3 +116,10 @@ main{
 #what-i-do-description{
     padding: 30px 150px;
 }
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+}   
